@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2022_08_02_155028) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2022_07_29_185012) do
+>>>>>>> 0ccf51064dd8bc641d524b0917a108cf38c8f6e1
   create_table "favorites", force: :cascade do |t|
     t.integer "user_id"
     t.integer "game_id"
@@ -28,7 +32,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_02_155028) do
     t.string "first_name"
     t.string "last_name"
     t.string "username"
+<<<<<<< HEAD
     t.string "password_digest"
+=======
+    t.string "password"
+>>>>>>> 0ccf51064dd8bc641d524b0917a108cf38c8f6e1
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
